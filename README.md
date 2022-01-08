@@ -1,4 +1,6 @@
 # General
+[![](https://poggit.pmmp.io/shield.state/CaptchaVerification)](https://poggit.pmmp.io/p/CaptchaVerification) 
+[![](https://img.shields.io/youtube/views/aVTMw2P8M_o?label=YouTube&style=social)](https://youtu.be/aVTMw2P8M_o)
 
 this plugin can help to verify bot or human
 for Pocketmine 4.0.0
