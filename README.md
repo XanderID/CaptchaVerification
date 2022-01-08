@@ -18,6 +18,7 @@ for Pocketmine 4.0.0
 - Cancel move / cmd if you haven't written the captcha correctly
 - can set background color
 - can set text color
+- can set for first join only
 - can set session time for captcha code
 - can set if attempt reach max regenerate new or kick
 
