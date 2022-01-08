@@ -1,0 +1,56 @@
+---
+# Text Captcha Color
+# Can use § or & or TextFormat ( GRAY etc )
+text-color: "§f"
+
+# Background Captcha Color
+# Can use § or & or TextFormat ( GRAY etc )
+background-color: "§b"
+
+# Add Number in Captcha?
+number: true
+
+# maximum attempt when captcha
+max-attempt: 3
+
+# Mode if the Attempt reach max
+# Mode: kick ( if there are too many wrong captcha code )
+# Mode: regenerate ( Regenerate new Captcha code when many wrong captcha code )
+mode: "regenerate"
+
+# Message when kick
+kick: "§cyou have tried many captcha code but it's wrong, please join again"
+
+# Message when regenerate
+regenerate: "§cyou have tried many captcha code but it's wrong, \n§aregenerating new code please wait 3 seconds"
+
+# cancel move if the player has not written the captcha?
+cancel-move: true
+
+# can command? if the player has not written the captcha?
+can-command: false
+
+# Add Captcha Only on First Joined?
+# if true then session time will be disabled
+first-join: false
+
+# Session time for players to enter captcha again
+# when join
+# In Seconds ( 3600 is 1 Hours )
+session: 3600
+
+# Execute cmd Message
+cmd-message: "§cPlease write captcha before run a commands!"
+
+# Input code Message
+input-code: "§aPlease write down the captcha in your hand \n §aTo identify you as a bot or not"
+
+# Wrong code Message
+wrong-code: "§cCaptcha code is Wrong! try again!"
+
+# Correct Code Message
+correct-code: "you have entered the correct captcha code!, happy playing"
+
+# Tip message
+tip-message: "§cplease complete the captcha"
+...
