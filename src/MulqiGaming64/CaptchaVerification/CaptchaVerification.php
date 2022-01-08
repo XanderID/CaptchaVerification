@@ -250,17 +250,13 @@ class CaptchaVerification extends PluginBase implements Listener {
 						unset($this->captcha[$name]);
 						$player->kick($this->getConfig()->get("kick"));
 						return true;
-					break;
 					case "regenerate":
 						unset($this->captcha[$name]);
 						$this->sendCode($player, true);
 						return true;
-					break;
 					default:
 						unset($this->captcha[$name]);
 						$this->sendCode($player, true);
-						return true;
-					break;
 				}
 				return true;
 			}
