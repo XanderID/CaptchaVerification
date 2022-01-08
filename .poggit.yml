@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/MulqiGaming64/CaptchaVerification
+build-by-default: true
+branches:
+- main
+projects:
+  CaptchaVerification:
+    path: ""
+    icon: "icon.png"
+...
