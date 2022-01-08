@@ -271,8 +271,8 @@ class CaptchaVerification extends PluginBase implements Listener {
 			unset($this->captcha[$name]);
 			unset($this->attempt[$name]);
 			$this->sessionTime[$name] = time() + $this->getConfig()->get("session");
-			return true;
 		}
+		return true;
 	}
 	
 	/**
