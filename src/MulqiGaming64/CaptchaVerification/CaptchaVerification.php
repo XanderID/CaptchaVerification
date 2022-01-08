@@ -85,85 +85,68 @@ class CaptchaVerification extends PluginBase implements Listener {
 			case "§0":
 			case "&0":
 				return @imagecolorallocate($img, 29, 28, 33);
-			break;
 			case "DARK_BLUE":
 			case "§1":
 			case "&1":
 				return @imagecolorallocate($img, 60, 68, 169);
-			break;
 			case "DARK_GREEN":
 			case "§2":
 			case "&2,":
 				return @imagecolorallocate($img, 93, 124, 21);
-			break;
 			case "DARK_AQUA":
 			case "§3":
 			case "&3":
 				return @imagecolorallocate($img, 22, 156, 157);
-			break;
 			case "DARK_RED":
 			case "§4":
 			case "&4":
 				return @imagecolorallocate($img, 176, 46, 38);
-			break;
 			case "DARK_PURPLE":
 			case "§5":
 			case "&5":
 				return @imagecolorallocate($img, 137, 50, 183);
-			break;
 			case "GOLD":
 			case "§6":
 			case "&6":
 				return @imagecolorallocate($img, 249, 128, 29);
-			break;
 			case "GRAY":
 			case "§7":
 			case "&7":
 				return @imagecolorallocate($img, 156, 157, 151);
-			break;
 			case "DARK_GRAY":
 			case "§8":
 			case "&8":
 				return @imagecolorallocate($img, 71, 79, 82);
-			break;
 			case "BLUE":
 			case "§9":
 			case "&9":
 				return @imagecolorallocate($img, 60, 68, 169);
-			break;
 			case "GREEN":
 			case "§a":
 			case "&a":
 				return @imagecolorallocate($img, 128, 199, 31);
-			break;
 			case "AQUA":
 			case "§b":
 			case "&b":
 				return @imagecolorallocate($img, 58, 179, 218);
-			break;
 			case "RED":
 			case "§c":
 			case "&c":
 				return @imagecolorallocate($img, 255, 83, 73);
-			break;
 			case "LIGHT_PURPLE":
 			case "§d":
 			case "&d":
 				return @imagecolorallocate($img, 255, 0, 255);
-			break;
 			case "YELLOW":
 			case "§e":
 			case "&e":
 				return @imagecolorallocate($img, 255, 255, 0);
-			break;
 			case "WHITE":
 			case "§f":
 			case "&f":
 				return @imagecolorallocate($img, 249, 255, 255);
-			break;
 			default:
 				return @imagecolorallocate($img, 249, 255, 255);
-			break;
 		}
 	}
 	
