@@ -1,6 +1,6 @@
 <?php
 
-namespace MulqiGaming64\CaptchaVerification;
+namespace XanderID\CaptchaVerification;
 
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;

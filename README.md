@@ -11,7 +11,7 @@ for Pocketmine 4.0.0
 
 # Screenshot
 
-![Screenshot](https://github.com/MulqiGaming64/CaptchaVerification/blob/170a988a456112e57f53d47943fe44bf14534808/Screenshot.png)
+![Screenshot](https://github.com/XanderID/CaptchaVerification/blob/170a988a456112e57f53d47943fe44bf14534808/Screenshot.png)
 
 # Feature
 - Captcha code are Random Generate
@@ -92,5 +92,5 @@ tip-message: "§cplease complete the captcha"
 
 # Additional Notes
 
-- If you find bugs or want to give suggestions, please visit [here](https://github.com/MulqiGaming64/CaptchaVerification/issues)
+- If you find bugs or want to give suggestions, please visit [here](https://github.com/XanderID/CaptchaVerification/issues)
 - Icons By [flaticon.com](https://www.flaticon.com)
